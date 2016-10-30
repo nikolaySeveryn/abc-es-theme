@@ -212,6 +212,11 @@ a.ui-button:active,
 	background-image: url("#{resource['primefaces-maintheme:images/ui-icons_ffffff_256x240.png']}");
 }
 
+.ui-dialog-titlebar-icon.ui-state-hover .ui-icon,
+.ui-dialog-titlebar-icon.ui-button:hover .ui-icon{
+	background-image: url("#{resource['primefaces-maintheme:images/ui-icons_000000_256x240.png']}");
+}
+
 .ui-state-active .ui-icon,
 .ui-button:active .ui-icon {
 	background-image: url("#{resource['primefaces-maintheme:images/ui-icons_ffffff_256x240.png']}");
@@ -712,4 +717,16 @@ div.logo{
 .sidebar .ui-accordion .ui-accordion-header:hover .ui-icon-triangle-1-s,
 .sidebar .ui-accordion .ui-accordion-header:hover .ui-icon-triangle-1-e{
 	background-image: url("#{resource['primefaces-maintheme:images/ui-icons_2399e5_256x240.png']}");
+}
+
+.ui-dialog{
+	padding: 3px;
+}
+
+.ui-dialog .ui-dialog-content{
+	padding: 10px !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane{
+	padding: 2px 10px !important;
 }
