@@ -730,3 +730,23 @@ div.logo{
 .ui-dialog .ui-dialog-buttonpane{
 	padding: 2px 10px !important;
 }
+
+.ui-button.ui-autocomplete-dropdown{
+	height: 26px!important;
+}
+
+.ui-panelgrid{
+	margin: 15px;
+}
+
+ul.ui-tabs-nav li.ui-state-default{
+    background: #f6f7f9;
+}
+
+ul.ui-tabs-nav li.ui-state-hover{
+	background: #ededed;
+}
+
+ul.ui-tabs-nav li.ui-state-active{
+    background: #186ba0;
+}
